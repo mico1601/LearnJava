@@ -62,5 +62,15 @@ public class Main {
             System.out.println("Kalimat tidak mengandung kata '" + kataYangDicari + "'");
         }
         // output = Kalimat mengandung kata 'contoh'
+
+
+        //Method equals, digunakan untuk membandingkan dua objek apakah sama atau tidak
+        Person person1 = new Person("John Doe", 30);
+        Person person2 = new Person("John Doe", 30);
+        Person person3 = new Person("Jane Doe", 25);
+
+        System.out.println(person1.equals(person2)); // Output: true
+        System.out.println(person1.equals(person3)); // Output: false
     }
+
 }
