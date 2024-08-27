@@ -107,6 +107,31 @@ public class Main {
         String huruf = "BeBas Aja";
 
         System.out.println(huruf.toLowerCase());
+
+        System.out.println("\nMethod toUpperCase() digunakan untuk mengubah string ke huruf Besar");
+        String huruf1 = "BeBas Aja";
+
+        System.out.println(huruf1.toUpperCase());
+
+        System.out.println("\nMethod trim() digunakan untuk menghapus spasi di awal atau akhir string");
+        String trim = " Ini Contoh trim diawal ada spasi";
+        System.out.println(trim.trim());
+
+
+        System.out.println("\nMethod valueOf(int value) digunakan untuk mengubah tipe yang diberikan menjadi sebuah string");
+        int change = 20;
+        System.out.println("Variable change di awal bertipe data int dan sekarang bertipe "+ ((Object)String.valueOf(change)).getClass().getSimpleName());
+
+        System.out.println("\nMethod compareTo() digunakan untuk membandingkan dua nilai variable");
+        System.out.println("Nilai negatif: Jika string pertama muncul sebelum string kedua dalam urutan abjad.\n" +
+                "Nilai nol: Jika kedua string sama.\n" +
+                "Nilai positif: Jika string pertama muncul setelah string kedua dalam urutan abjad.\n");
+        String comp = "Apa aja";
+        String comp1 = "Apa sAja";
+        String comp2 = "Apa aja";
+
+        System.out.println(comp.compareTo(comp1));
+        System.out.println(comp.compareTo(comp2));
     }
 
 }
