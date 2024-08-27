@@ -26,7 +26,7 @@ public class Main {
         System.out.println(result);
         //output = r
 
-        System.out.println("Method Substring Mengambil karater tertentu (lebih dari 1 karakter + " +
+        System.out.println("\nMethod Substring Mengambil karater tertentu (lebih dari 1 karakter + " +
                 "hitungan karakter seperti array mulai dari index ke 0");
         String ambil2 = "Bandar Lampung";
         String hasil = ambil2.substring(0,5);
@@ -52,7 +52,7 @@ public class Main {
         System.out.println(kalimat3);
         //output = Nilai ujian Matematika: 85, Bahasa Inggris:90
 
-        System.out.println("Menggunakan contains() untuk mencari sebuah karakter pada sebuah string");
+        System.out.println("\nMenggunakan contains() untuk mencari sebuah karakter pada sebuah string");
         String kalimat = "Ini adalah contoh kalimat";
         String kataYangDicari = "contoh";
 
@@ -66,15 +66,15 @@ public class Main {
         // output = Kalimat mengandung kata 'contoh'
 
 
-        System.out.println("Method equals, digunakan untuk membandingkan dua objek apakah sama atau tidak");
-        Person person1 = new Person("John Doe", 30);
-        Person person2 = new Person("John Doe", 30);
-        Person person3 = new Person("Jane Doe", 25);
+        System.out.println("\nMethod equals, digunakan untuk membandingkan dua objek apakah sama atau tidak");
+        String address = "Lampung";
+        String address1 = "Lampu";
+        String address2 = "Lampung";
 
-        System.out.println(person1.equals(person2)); // Output: true
-        System.out.println(person1.equals(person3)); // Output: false
+        System.out.println(address.equals(address1)); // Output: false
+        System.out.println(address.equals(address2)); // Output: true
 
-        System.out.println("Method empty digunakan untuk mengecek apakah nilai tersebut kosong\n");
+        System.out.println("\nMethod empty digunakan untuk mengecek apakah nilai tersebut kosong\n");
         String hati = "";
         if (hati.isEmpty()) {
             System.out.println("Anda Jomblo");
@@ -83,20 +83,30 @@ public class Main {
         }
         //output = Anda Jomblo
 
-        System.out.println("Method concat digunakan untuk menggabungkan lebih dari 1 buah string");
+        System.out.println("\nMethod concat digunakan untuk menggabungkan lebih dari 1 buah string");
         String firstName = "Mico";
         String lastName = "Fahrizal";
         String fullName = firstName.concat(" ").concat(lastName);
 
         System.out.println(fullName); // Output: Mico Fahrizal
 
-        System.out.println("Method replace digunakan untuk mengganti karakter dalam sebuat string");
+        System.out.println("\nMethod replace digunakan untuk mengganti karakter dalam sebuaH string");
         String str = "Hello, World!";
         String newStr = str.replace('l', 'x');
         System.out.print("from Hello, World!");
         System.out.println(" To "+newStr); // Output: From Hello, World To Hexxo, Worxd!
 
 
+        System.out.println("\nMethod indexOf() digunakan untuk mengetahui index keberapa dari string yang dicari");
+        String test = "test Index";
+        String cari = "st";
+
+        System.out.println(test.indexOf(cari));
+
+        System.out.println("\nMethod toLowerCase() digunakan untuk mengubah string ke huruf kecil");
+        String huruf = "BeBas Aja";
+
+        System.out.println(huruf.toLowerCase());
     }
 
 }
