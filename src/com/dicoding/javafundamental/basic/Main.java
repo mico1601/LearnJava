@@ -13,6 +13,7 @@ public class Main {
     Operator panggilBelajarOperator = new Operator();
     panggilBelajarOperator.Assignment();
     panggilBelajarOperator.Aritmatika();
+    panggilBelajarOperator.Unary();
 
     }
 
