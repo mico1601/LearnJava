@@ -3,9 +3,16 @@ package com.dicoding.javafundamental.basic;
 public class Main {
     public static void main (String[] args){
 
-    BelajarString callBelajarString = new BelajarString();
+    System.out.println("\nMATERI STRING");
 
-    callBelajarString.CallBelajarString();
+    BelajarString panggilBelajarString = new BelajarString();
+    panggilBelajarString.CallBelajarString();
+
+    System.out.println("\nMATERI OPERATOR\n");
+
+    Operator panggilBelajarOperator = new Operator();
+    panggilBelajarOperator.Assignment();
+    panggilBelajarOperator.Aritmatika();
 
     }
 
