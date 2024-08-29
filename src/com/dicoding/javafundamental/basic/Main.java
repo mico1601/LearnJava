@@ -14,6 +14,8 @@ public class Main {
     panggilBelajarOperator.Assignment();
     panggilBelajarOperator.Aritmatika();
     panggilBelajarOperator.Unary();
+    panggilBelajarOperator.Equality();
+    panggilBelajarOperator.Conditional();
 
     }
 
