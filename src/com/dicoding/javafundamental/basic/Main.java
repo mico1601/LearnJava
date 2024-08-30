@@ -17,6 +17,10 @@ public class Main {
     panggilBelajarOperator.Equality();
     panggilBelajarOperator.Conditional();
 
+    System.out.println("\nMATERI INPUT OUTPUT");
+    IO panggilIO = new IO();
+    panggilIO.Input();
+
     }
 
 }
